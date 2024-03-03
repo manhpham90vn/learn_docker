@@ -1,0 +1,7 @@
+FROM python:3.11-alpine3.19
+
+RUN apk add --update --no-cache openssh
+
+RUN pip install awsebcli
+
+ENTRYPOINT [ "eb" ]

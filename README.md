@@ -250,3 +250,9 @@ docker-compose run --rm app init -y
 docker-compose run --rm app install
 docker-compose run --rm --build app install express
 ```
+
+## Docker Utils
+- build and deploy
+```shell
+./build.sh sam 1
+```
